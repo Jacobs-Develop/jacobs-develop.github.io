@@ -2,15 +2,8 @@ body
 {
     margin: 0;
     color: white;
+    border-top: 7px #8F8F8F solid;
     border-bottom: 7px #f4ba6e solid;
-}
-html
-{
-    background-image: url(./images/background.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 *
 {
