@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        ul.horizontal {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        ul.horizontal li {
+            float: left;
+        }
+        
+        ul.horizontal li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        ul.horizontal li a:hover:not(.active) {
+            background-color: #000;
+        }
+        
+        ul.horizontal li a.active {
+            background-color:#4CAF50;
+        }
+        .button
+        {
+        background-color: white;
+        color: black;
+        border: 2px solid #4CAF50;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 20px;
+        }
+
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Combatible" content="ie=edge">
+    <title>JacobsDevelop</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <ul class="horizontal">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="socials.html">Socials</a></li>
+        <li><a href="projects/index.html">Projects</a></li>
+        <li><a href="globalroadmap.html">Global Roadmap</a></li>
+        <li><a href="games/index.html">Games</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a href="wiki/index.html">Wiki</a></li>
+    </ul>
+    <h1>Contact:</h1>
+    <br>
+    <p><a class="button icon" href="./contactForm.html"><span style="background: url(./images/icons/icon-email.png);">Send Email</span></a></p>
+    <p><a class="button icon" href="https://discord.gg/sYSHgBDsdU"><span style="background: url(./images/icons/icon-discord.png);">Discord Server</span></a></p>
+    <br>
+    <img alt="Discord" src="https://img.shields.io/discord/783275665989959702?color=blue&logo=discord">
+    <br>
+</body>
+</html>

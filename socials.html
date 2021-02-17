@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        ul.horizontal {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: static;
+            background-color: #333;
+        }
+        
+        ul.horizontal li {
+            float: left;
+        }
+        
+        ul.horizontal li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        ul.horizontal li a:hover:not(.active) {
+            background-color: #000;
+        }
+        
+        ul.horizontal li a.active {
+            background-color:#4CAF50;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Combatible" content="ie=edge">
+    <title>JacobsDevelop</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <ul class="horizontal">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="socials.html">Socials</a></li>
+        <li><a href="projects/index.html">Projects</a></li>
+        <li><a href="globalroadmap.html">Global Roadmap</a></li>
+        <li><a href="games/index.html">Games</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="wiki/index.html">Wiki</a></li>
+    </ul>
+    <h1>Socials</h1>
+    <p>My socials:</p>
+    <div align="center" class="center">
+        <ul class="boxes">
+            <div class="box">
+                <font color="#8800CC">Twitch</font>
+                <br>
+                <a href="https://www.twitch.tv/jacobsdevelop">
+                    <img alt="Twitch Status" src="https://img.shields.io/twitch/status/jacobsdevelop?color=success&label=Twitch&logo=Twitch&logoColor=success&style=plastic">
+                </a>
+            </div>
+        </ul>
+
+    </div>
+</body>
+</html>
