@@ -5,6 +5,9 @@ body
     border-top: 7px #8F8F8F solid;
     border-bottom: 7px #f4ba6e solid;
 }
+html {
+    background-color: #1A1A00;
+}
 *
 {
     font-family: 'Audiowide';
