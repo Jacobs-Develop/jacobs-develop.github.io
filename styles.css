@@ -11,9 +11,16 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
-*
-{
-    font-family: 'Audiowide';
+* {
+    font-family: 'audiowideregular';
+}
+@font-face {
+    font-family: 'audiowideregular';
+    src: url('css/audiowide-regular-webfont.woff2') format('woff2'),
+         url('css/audiowide-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 div.clsScroll
 {
